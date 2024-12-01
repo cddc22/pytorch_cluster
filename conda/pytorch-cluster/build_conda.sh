@@ -13,6 +13,9 @@ else
     cu124)
       export CONDA_CUDATOOLKIT_CONSTRAINT="pytorch-cuda==12.4.*"
       ;;
+    cu123)
+      export CONDA_CUDATOOLKIT_CONSTRAINT="pytorch-cuda==12.3.*"
+      ;;
     cu121)
       export CONDA_CUDATOOLKIT_CONSTRAINT="pytorch-cuda==12.1.*"
       ;;
